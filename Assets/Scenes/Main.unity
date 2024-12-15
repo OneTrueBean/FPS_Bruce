@@ -933,6 +933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1131638074}
+  - component: {fileID: 1131638075}
   m_Layer: 3
   m_Name: model
   m_TagString: Untagged
@@ -956,6 +957,19 @@ Transform:
   - {fileID: 149534429}
   m_Father: {fileID: 1189843423}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1131638075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131638073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a6b3db39723f04790b71ba5861be34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 1
 --- !u!1 &1189843422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,6 +1015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a6b3db39723f04790b71ba5861be34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageAmount: 1
 --- !u!1 &1234941553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,6 +1469,7 @@ GameObject:
   - component: {fileID: 1929098209}
   - component: {fileID: 1929098211}
   - component: {fileID: 1929098212}
+  - component: {fileID: 1929098213}
   m_Layer: 6
   m_Name: Robot
   m_TagString: Untagged
@@ -1534,6 +1550,19 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1929098213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929098208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf54a06e301ab1448abbcef4a26e20ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 3
 --- !u!1 &2000984409
 GameObject:
   m_ObjectHideFlags: 0
